@@ -1,0 +1,9 @@
+{
+  "name": "javascript-comments",
+  "version": "1.0.0",
+  "description": "JavaScript program demonstrating appropriate comments",
+  "main": "program.js",
+  "scripts": {
+    "start": "node program.js"
+  }
+}
