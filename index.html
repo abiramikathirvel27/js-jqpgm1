@@ -5,11 +5,24 @@
 </head>
 <body>
 
-<h1>JavaScript Program Output</h1>
+    <h1>JavaScript Program Output</h1>
 
-<p id="output"></p>
+    <p id="output"></p>
 
-<script src="script.js"></script>
+    <script>
+        // Store the length and breadth
+        let length = 10;
+        let breadth = 5;
+
+        // Calculate the area
+        let area = length * breadth;
+
+        // Display the result
+        document.getElementById("output").innerHTML =
+            "Length: " + length + "<br>" +
+            "Breadth: " + breadth + "<br>" +
+            "Area of Rectangle: " + area;
+    </script>
 
 </body>
 </html>
